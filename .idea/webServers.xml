@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5b144589-942f-41f1-b49e-df83bde0b7cd" name="sftp://cp464@unix.sussex.ac.uk/its/home/cp464/public_html/3dAppMasters" url="http://users.sussex.ac.uk/~cp464">
+        <fileTransfer host="unix.sussex.ac.uk" port="22" rootFolder="/its/home/cp464" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

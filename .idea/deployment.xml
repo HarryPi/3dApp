@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="sftp://cp464@unix.sussex.ac.uk/its/home/cp464/public_html/3dAppMasters" compareModeInSync="TEXT">
+    <serverData>
+      <paths name="sftp://cp464@unix.sussex.ac.uk/its/home/cp464/public_html/3dAppMasters">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/3dAppMasters" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

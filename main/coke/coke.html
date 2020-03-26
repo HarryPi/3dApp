@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./../../node_modules/x3dom/x3dom.css">
+    <link rel="stylesheet" href="./../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">
+                    Home
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Drinks
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../coke/coke.html">Coca Cola</a>
+                    <a class="dropdown-item" href="#">Sprite</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Dr Pepper</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="card-body">
+    <h4 class="card-title">Coca Cola X3D Model</h4>
+
+    <div class="model3D">
+        <x3d>
+            <scene>
+                <inline url="./../../x3d/coke.x3d"></inline>
+            </scene>
+        </x3d>
+    </div>
+
+    <p class="card-text">This X3D model of the coke can has been created in 3ds Max, exported to VRML97 and converted,
+        using the instantreality transcoders, to X3D for display online.</p>
+    <h5 class="card-subtitle">Camera Views</h5>
+    <div class="camera-btns">
+        <p class="card-text">These buttons select a range of X3D model viewpoints</p>
+        <div class="btn-group ">
+            <a href="#" class="btn btn-primary btn-responsive camera-font">Front</a>
+            <a href="#" class="btn btn-secondary btn-responsive camera-font">Back</a>
+            <a href="#" class="btn btn-success btn-responsive camera-font">Left</a>
+            <a href="#" class="btn btn-danger btn-responsive camera-font">Right</a>
+            <a href="#" class="btn btn-warning btn-responsive camera-font">Top</a>
+            <a href="#" class="btn btn-outline-dark disabled btn-responsive camera-font">Off</a>
+        </div>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm footer navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="navbar-text float-left copyright">
+            <p><span class="align-baseline"></span>&copy 2018 Mobile Web 3D Applications </span></p>
+        </div>
+        <div class="navbar-text float-right social">
+            <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+            <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+        </div>
+    </div>
+</nav>
+<script src="./../../node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+<script src="./../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="./../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./../../node_modules/x3dom/x3dom.js"></script>
+</body>
+</html>
